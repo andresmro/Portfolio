@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import PortFolio from './components/PortFolio';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import BtnTop from './components/BtnTop';
 
 
 import './App.css';
@@ -24,6 +25,7 @@ const App = () => {
       <PortFolio/>
       <Services/>
       <Contact/>
+      <BtnTop/>
     </div>
   );
 };
