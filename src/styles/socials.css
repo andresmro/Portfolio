@@ -1,0 +1,17 @@
+.socialUl{
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+.socialLI{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4646ab;
+}
+
+.socialA{
+    font-size: 1.2rem;
+    line-height: 1.5rem; 
+    margin: 5px 18px;
+}

@@ -1,0 +1,28 @@
+
+.skills-section{
+    background-color: #13131a;
+    padding: 48px 0;
+    
+}
+
+.skills-container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.skills-icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+.skills-h1{
+    font-size: 5rem;
+    margin: 0;
+    color: #a49d9d;
+    font-weight: bold;
+    margin-bottom: 40px;
+    
+}
