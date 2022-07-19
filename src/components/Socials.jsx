@@ -10,7 +10,7 @@ const Socials = () => {
       {social.map((item, index) => {
         return (
           <li className="socialLI" key={index}>
-            <a className="socialA" href={item.href}>
+            <a className="socialA" href={item.href} target='_blank'>
               {item.icon}
             </a>
           </li>
