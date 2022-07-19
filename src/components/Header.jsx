@@ -21,9 +21,9 @@ const Header = () => {
     <header className={`${bg ? 'bg-active' : 'bg-noActive'}`}>
         <div className='head'>
             {/* logo */}
-            <a className='headerName' href='#'>
+            <h1 className='headerName'>
                 Andres Mateus
-            </a>
+            </h1>
             {/* nav */}
             <div className='navh'>
                 <Nav/>

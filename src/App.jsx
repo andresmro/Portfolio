@@ -7,6 +7,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import PortFolio from './components/PortFolio';
 import Services from './components/Services';
+import Contact from './components/Contact';
 
 
 import './App.css';
@@ -22,6 +23,7 @@ const App = () => {
       <Skills/>
       <PortFolio/>
       <Services/>
+      <Contact/>
     </div>
   );
 };

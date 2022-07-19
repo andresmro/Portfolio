@@ -1,9 +1,7 @@
 // //  icons
 import {
-    FiYoutube,
-    FiInstagram,
+    FiLinkedin,
     FiGithub,
-    FiDribbble,
     FiLayout,
     FiSettings,
     FiPenTool,
@@ -65,10 +63,6 @@ import {
       href: 'services',
     },
     {
-      name: 'testimonials',
-      href: 'testimonials',
-    },
-    {
       name: 'contact',
       href: 'contact',
     },
@@ -77,20 +71,12 @@ import {
 //   // social
   export const social = [
     {
-      icon: <FiYoutube />,
-      href: '',
-    },
-    {
-      icon: <FiInstagram />,
-      href: '',
+      icon: <FiLinkedin />,
+      href: 'https://www.linkedin.com/in/andres-mateus-rodriguez-88860b245/',
     },
     {
       icon: <FiGithub />,
-      href: '',
-    },
-    {
-      icon: <FiDribbble />,
-      href: '',
+      href: 'https://github.com/andresmro',
     },
   ];
   
@@ -198,32 +184,32 @@ import {
   ];
   
 //   // services
-//   export const services = [
-//     {
-//       icon: <FiLayout />,
-//       name: 'Web Design',
-//       description:
-//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-//     },
-//     {
-//       icon: <FiSettings />,
-//       name: 'Web Development',
-//       description:
-//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-//     },
-//     {
-//       icon: <FiPenTool />,
-//       name: 'Branding',
-//       description:
-//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-//     },
-//     {
-//       icon: <FiTag />,
-//       name: 'SEO',
-//       description:
-//         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-//     },
-//   ];
+  export const services = [
+    {
+      icon: <FiLayout />,
+      name: 'Web Design',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    },
+    {
+      icon: <FiSettings />,
+      name: 'Web Development',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    },
+    {
+      icon: <FiPenTool />,
+      name: 'Branding',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    },
+    {
+      icon: <FiTag />,
+      name: 'SEO',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    },
+  ];
   
 //   // testimonials
 //   export const testimonials = [
@@ -251,17 +237,17 @@ import {
 //   ];
   
 //   // contact
-//   export const contact = [
-//     {
-//       icon: <FiMail />,
-//       title: 'Have a question?',
-//       subtitle: 'I am here to help you.',
-//       description: 'Email me at hello@youremail.com',
-//     },
-//     {
-//       icon: <FiMapPin />,
-//       title: 'Current Location',
-//       subtitle: 'Bucharest, Romania',
-//       description: 'Serving clients worldwide',
-//     },
-//   ];
+  export const contact = [
+    {
+      icon: <FiMail />,
+      title: 'Have a question?',
+      subtitle: 'I am here to help you.',
+      description: 'Email me at andru2001@hotmail.es',
+    },
+    {
+      icon: <FiMapPin />,
+      title: 'Current Location',
+      subtitle: 'Bogota D.C, Colombia',
+      description: 'Serving clients worldwide',
+    },
+  ];
