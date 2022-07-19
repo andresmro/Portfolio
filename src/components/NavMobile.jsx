@@ -69,6 +69,7 @@ const NavMobile = () => {
             <li key={index} className="navigation-li">
               <Link
                 to={item.href}
+                onClick={() => setIsOpen(false)}
                 smooth={true}
                 duration={500}
                 offset={-70}

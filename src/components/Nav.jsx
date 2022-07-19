@@ -1,4 +1,4 @@
-import React from "react";
+
 
 //aqui importamos la data de navegacion
 import { navigation } from "../data";
