@@ -22,7 +22,7 @@ const About = () => {
 
                 <hr className="hr-about"/>
                 <p className="p2-about">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit aspernatur eveniet tempore a mollitia fugiat repudiandae hic magni nesciunt asdnba sd ex lit oma get dat enveint asdadas.
+                I started my journey in 2018 when I was in high school, learning web development on my own. After graduating, i entered college, where I continued my studies in order to improve my skills as a developer. In 2021 I started to learn ReactJs and from this point I started to dive deeper into the world of web development.
                 </p>
             
           </div>

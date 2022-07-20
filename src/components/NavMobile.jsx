@@ -59,7 +59,7 @@ const NavMobile = () => {
         variants={ulVariants}
         initial="hidden"
         animate={isOpen ? "visible" : "hidden"}
-        className={`${isOpen ? "motion-ulA" : "motion-ulI"} motion-ulN`}
+        className={`${isOpen ? "motion-ulA" : "motion-ulI"}`}
       >
         <div onClick={() => setIsOpen(false)} className="close-icon">
           <XIcon className="xicon" />
