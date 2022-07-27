@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 import Nav from './Nav';
 import NavMovile from './NavMobile';
 import Socials from './Socials';

@@ -24,7 +24,7 @@ const Contact = () => {
                             <div className='contact-item-info'>
                                 <h4 className='contact-info-title'> {title} </h4>
                                 <p className='contact-info-subtitle'> {subtitle} </p>
-                                <p className='contact-info-desc'> {description} </p>
+                                <p className='contact-info-desc'>{description} </p>
                             </div>
                         </div>
                         );
