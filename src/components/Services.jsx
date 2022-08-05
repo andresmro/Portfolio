@@ -10,10 +10,7 @@ const Services = () => {
           <h1 className="services-h1">Services</h1>
           <h2 className="services-h2">What i do for clients</h2>
           <p className="services-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            magnam ducimus excepturi nobis repellat corporis eveniet ipsam quae
-            accusantium, dolores provident consequuntur neque mollitia, sequi
-            eaque soluta adipisci dignissimos aspernatur.
+          There are different areas in which I have been improving my skills as a developer, but here are some in which I can say that I have a great handle.
           </p>
         </div>
         <div className="services-items-grid">

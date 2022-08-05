@@ -24,15 +24,16 @@ const Projects = () => {
     }
   }, [item]);
 
-  const handleClick = (e, index) => {
-    setItem({ name: e.target.textContent.toLowerCase() });
-    setActive(index);
-  };
+  // const handleClick = (e, index) => {
+  //   setItem({ name: e.target.textContent.toLowerCase() });
+  //   setActive(index);
+  // };
 
 
   return (
     <>
-      <nav className="projects-nav">
+      
+      {/* <nav className="projects-nav">
         <ul className="projects-ul">
         {projectsNav.map((item, index) => {
               return (
@@ -50,7 +51,8 @@ const Projects = () => {
               );
             })}
         </ul>
-      </nav>
+      </nav> */}
+
       <section className="projects-section">
         {projects.map((item) => (
           <Project item={item} key={item.id} />

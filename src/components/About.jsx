@@ -1,6 +1,6 @@
 
 
-import Image from "../assets/img/about.webp";
+import Image from "../assets/img/webDev.png";
 
 import "../styles/about.css";
 
@@ -17,7 +17,7 @@ const About = () => {
                 <h2 className="h2-about">
                     Andres Mateus
                 </h2>
-                <p className="p-about">Web developer</p>
+                <p className="p-about">Frond-end developer</p>
             
 
                 <hr className="hr-about"/>

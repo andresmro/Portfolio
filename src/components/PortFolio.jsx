@@ -9,7 +9,7 @@ const PortFolio = () => {
         <div className='portfolio-div1'>
             <h2 className='portfolio-h2'>My latest work</h2>
             <p className='portfolio-p'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatum odit quisquam fugit id nostrum recusandae pariatur, laboriosam iure quam voluptas! Explicabo impedit, iure repudiandae sint quae totam fugit numquam!
+            Here you can review the latest projects I've been working on.
             </p>
         </div>
         <Projects/>

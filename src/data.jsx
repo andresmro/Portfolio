@@ -4,20 +4,16 @@ import {
     FiGithub,
     FiLayout,
     FiSettings,
-    FiPenTool,
-    FiTag,
     FiMail,
     FiMapPin,
   } from 'react-icons/fi';
   
   
 //   // projects images
-  import Project1 from './assets/img/projects/p1.webp';
-  import Project2 from './assets/img/projects/p2.webp';
-  import Project3 from './assets/img/projects/p3.webp';
-  import Project4 from './assets/img/projects/p4.webp';
-  import Project5 from './assets/img/projects/p5.webp';
-  import Project6 from './assets/img/projects/p6.webp';
+  import Project11 from './assets/img/projects/pro1.png';
+  import Project22 from './assets/img/projects/pro2.png';
+  import Project33 from './assets/img/projects/pro3.png';
+
   
 //   // skills images
   import SkillImg1 from './assets/img/skills/html5.png';
@@ -76,39 +72,24 @@ import {
   export const projectsData = [
     {
       id: '1',
-      image: Project1,
-      name: 'project name 1',
-      category: 'UI/UX design',
+      image: Project11,
+      name: 'Gif Expert App',
+      link: 'https://andresmro.github.io/react-gifexpert-app/',
+      //category: 'UI/UX design',
     },
     {
       id: '2',
-      image: Project2,
-      name: 'project name 2',
-      category: 'web development',
+      image: Project22,
+      name: 'Journal App',
+      link: 'https://notes-journal-app.netlify.app',
+      //category: 'web development',
     },
     {
       id: '3',
-      image: Project3,
-      name: 'project name 3',
-      category: 'UI/UX design',
-    },
-    {
-      id: '4',
-      image: Project4,
-      name: 'project name 4',
-      category: 'branding',
-    },
-    {
-      id: '5',
-      image: Project5,
-      name: 'project name 5',
-      category: 'web development',
-    },
-    {
-      id: '6',
-      image: Project6,
-      name: 'project name 6',
-      category: 'web development',
+      image: Project33,
+      name: 'Personal Portfolio',
+      link: 'https://portfolio-andresmro.netlify.app',
+      //category: 'UI/UX design',
     },
   ];
   
@@ -157,25 +138,13 @@ import {
       icon: <FiLayout />,
       name: 'Web Design',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+        'Always satisfying the designs required by Clients.',
     },
     {
       icon: <FiSettings />,
       name: 'Web Development',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-    },
-    {
-      icon: <FiPenTool />,
-      name: 'Branding',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-    },
-    {
-      icon: <FiTag />,
-      name: 'SEO',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+        'Always working and achieving the features required by Clients.',
     },
   ];
   

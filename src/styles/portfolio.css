@@ -1,7 +1,6 @@
 
 .portfolio-section{
     background-color: black;
-    min-height: 1400px;
     
 }
 
@@ -11,6 +10,7 @@
     align-items: center;
     text-align: center;
     margin: 0 50px;
+    margin-bottom: 40px;
 
 }
 
@@ -21,6 +21,6 @@
 }
 
 .portfolio-p{
-    font-size: 15px;
+    font-size: 20px;
     color: #a49d9d;
 }
