@@ -12,9 +12,9 @@ const Hero = () => {
           {/* left side */}
           <div className="left-side">
             <p className="p-hi">Hey, I´m Andres 🤙 </p>
-            <h1 className="h1-me"> Frond End Developer</h1>
+            <h1 className="h1-me"> Front End Developer</h1>
             <p className="p-info">
-              Currently a frond end developer, looking for challenges. 
+              Currently a front end developer, looking for challenges. 
               Developing with the best techniques and technologies to build sites that satisfy clients.
 
             </p>

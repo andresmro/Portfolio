@@ -17,7 +17,7 @@ const About = () => {
                 <h2 className="h2-about">
                     Andres Mateus
                 </h2>
-                <p className="p-about">Frond-end developer</p>
+                <p className="p-about">Front-end developer</p>
             
 
                 <hr className="hr-about"/>
